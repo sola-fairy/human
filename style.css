@@ -137,6 +137,7 @@
   --salmon: #eb8272ff;
   --darklilac: #5e49a3;
   --lavender: #9782ff;
+  --win95gray: #dadada;
 }
 
 * {
@@ -145,7 +146,7 @@
 
 body {
   font-family: "Sour Gummy", serif;
-  background-color: var(--beige);
+  background-color: var(--win95gray);
   color: var(--darkgreen);
   width: 100%;
   font-size: 100%;
