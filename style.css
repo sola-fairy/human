@@ -135,6 +135,8 @@
   --blue-spruce: #267466ff;
   --apricot-cream: #eacaa3ff;
   --salmon: #eb8272ff;
+  --darklilac: #5e49a3;
+  --lavender: #9782ff;
 }
 
 * {
@@ -161,7 +163,7 @@ header {
   margin-top: 1em;
   padding: 1em;
   text-align: center;
-  color: var(--calmgreen);
+  color: var(--lavender);
   border-top-left-radius: var(--rounded);
   border-top-right-radius: var(--rounded);
 }
@@ -169,7 +171,7 @@ header {
 header > h1 {
   font-family: "Pixelify Sans", sans-serif;
   font-weight: lighter;
-  text-shadow: 3px 4px 0px var(--darkgreen);
+  text-shadow: 3px 4px 0px var(--darklilac);
   font-size: var(--step-4);
 }
 
