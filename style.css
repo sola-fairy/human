@@ -129,6 +129,12 @@
   --graygreen: #829f90;
   --contextbg: linear-gradient(var(--brightblue));
   --contextbghover: linear-gradient(#4677cd00);
+  --muted-teal: #71b397ff;
+  --powder-blush: #fdaf9bff;
+  --sunlit-clay: #febd71ff;
+  --blue-spruce: #267466ff;
+  --apricot-cream: #eacaa3ff;
+  --salmon: #eb8272ff;
 }
 
 * {
