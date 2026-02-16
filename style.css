@@ -216,9 +216,9 @@ nav {
 }
 
 a.links {
-  color: var(--calmgreen);
+  color: var(--undercloud);
   display: flex;
-  font-family: "Unkempt", serif;
+  font-family: "Sour Gummy", sans-serif;
   justify-content: center;
   align-items: center;
   background-color: var(--lightpink);
