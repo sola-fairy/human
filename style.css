@@ -208,11 +208,10 @@ main {
 }
 
 nav {
-  background-color: var(--palepink);
-  border: 2px solid var(--calmgreen);
-  border-radius: var(--rounded);
+  background-color: var(--win95gray);
+  border: 2px solid var(--undercloud);
   padding: 1em;
-  box-shadow: 3px 4px 0 2px var(--darkgreen);
+  box-shadow: 3px 4px 0 2px var(--night);
 }
 
 a.links {
