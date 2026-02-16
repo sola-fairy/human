@@ -138,6 +138,19 @@
   --darklilac: #5e49a3;
   --lavender: #9782ff;
   --win95gray: #dadada;
+  --night: #0e1338;
+  --raspberry: #e2255a;
+  --overcloud: #25d7d6;
+  --undercloud: #9782ff;
+  --cloudgradient: linear-gradient(
+    0deg,
+    hsl(250deg 100% 66%) 0%,
+    hsl(250deg 100% 74%) 20%,
+    hsl(200deg 96% 52%) 40%,
+    hsl(188deg 75% 51%) 60%,
+    hsl(180deg 66% 60%) 80%,
+    hsl(180deg 71% 85%) 100%
+  );
 }
 
 * {
@@ -174,6 +187,11 @@ header > h1 {
   font-weight: lighter;
   text-shadow: 3px 4px 0px var(--darklilac);
   font-size: var(--step-4);
+  background-image: var(--cloudgradient);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: fit-content;
+  margin: auto;
 }
 
 main {
